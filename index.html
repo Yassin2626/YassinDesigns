@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassin Designs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Onest&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yassin Designs</h1>
+            <p>Programmer | Graphic Designer</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" data-aos="fade-up">
+            <div class="container">
+                <h2>About Me</h2>
+                <p class="about-text">Hi! I'm Yassin Designs, 2 years of experience a self taught programmer and graphic designer with a love for creating Discord bots. My goal is to turn your ideas into reality.</p>
+            </div>
+        </section>
+
+        <section id="projects" data-aos="fade-up">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-container">
+                    <div class="project-box active">
+                        <img src="https://i.imgur.com/QOTh4kZ.jpeg"Project Image 1">
+                        <p class="project-description">Brawl Stars</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="https://i.imgur.com/Te2mi6M.jpeg" alt="Project Image 2">
+                        <p class="project-description">Description of Project 2.</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="https://i.imgur.com/aYy1G03.jpeg" alt="Project Image 3">
+                        <p class="project-description">bot for 150k member SVR, it does alot of things</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="https://i.imgur.com/u0qydSh.jpeg" alt="Project Image 4">
+                        <p class="project-description">Description of Project 4.</p>
+                    </div>
+                </div>
+                <div class="arrow-buttons">
+                    <button class="prev" onclick="changeProjectSlide(-1)"><i class="fas fa-arrow-left"></i></button>
+                    <button class="next" onclick="changeProjectSlide(1)"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" data-aos="fade-up">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <span>Programming</span>
+                    <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Graphic Design</span>
+                    <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Discord Bot Development</span>
+                    <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Teamwork and Communication</span>
+                    <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" data-aos="fade-up">
+            <div class="container">
+                <h2>Reviews</h2>
+                <div class="review-container">
+                    <div class="review-box">
+                        <img src="https://i.imgur.com/Z0qeENP.jpeg" alt="Client A" class="client-image">
+                        <blockquote>
+                            <p>"Yassin is a talented developer who delivered exceptional work!"</p>
+                            <div class="stars"></div>
+                        </blockquote>
+                    </div>
+                    <div class="review-box">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQFI9Ar26fGvCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719017131845?e=2147483647&v=beta&t=K3e_JWPgkSsb7129jEL7_vA95Q73EaI7Bm_XCKCoAWA" alt="Client B" class="client-image">
+                        <blockquote>
+                            <p>"I highly recommend Yassin for any programming project!"</p>
+                            <div class="stars"></div>
+                        </blockquote>
+                    </div>
+                    <div class="review-box">
+                        <img src="https://dclu0bpcdglik.cloudfront.net/images/01J9FPB4SD9Z13RS3CQ3KV08GV-avatar.png" alt="Client C" class="client-image">
+                        <blockquote>
+                            <p>"Fantastic work, very satisfied!"</p>
+                            <div class="stars"></div>
+                        </blockquote>
+                    </div>
+                    <div class="review-box">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQFOK1XkZQ2eHA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720096274778?e=2147483647&v=beta&t=H3ICt2Y1hbU7dQnaLUBrjX6ZpdEkZCDqmdf5jvRHb6o" alt="Client D" class="client-image">
+                        <blockquote>
+                            <p>"Yassin skills are unmatched!"</p>
+                            <div class="stars"></div>
+                        </blockquote>
+                    </div>
+                    <div class="review-box">
+                        <img src="https://pbs.twimg.com/profile_images/1714678955028938752/tzNWcRsV.jpg" alt="Client E" class="client-image">
+                        <blockquote>
+                            <p>"Best developer I've worked with!"</p>
+                            <div class="stars"></div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Yassin Designs. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
